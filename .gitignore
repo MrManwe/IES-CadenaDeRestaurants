@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+#folders
+/prj/vs2019/.vs/
+/prj/vs2019/ies/x64/
+/prj/vs2019/x64/

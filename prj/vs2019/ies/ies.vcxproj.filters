@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="domini">
+      <UniqueIdentifier>{016cae3c-b6d5-4668-baab-d672328f6d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentacio">
+      <UniqueIdentifier>{62294990-bc42-41c1-918b-d33ba3597fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dades">
+      <UniqueIdentifier>{8b900db8-e259-4be2-a68b-c5f7296b514f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{5445823e-8433-4023-a5ff-b0a7958a2a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce">
+      <UniqueIdentifier>{052f17c9-ef70-4599-bf1b-faa20d8e4825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce\juce_graphics">
+      <UniqueIdentifier>{a68e4a19-30e1-4d44-b576-b3690a26da27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce\juce_core">
+      <UniqueIdentifier>{5caf26ea-2586-4363-99ae-510debd06fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce\juce_events">
+      <UniqueIdentifier>{5ccb14f6-3a40-4f08-af88-3f40dabd197c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce\juce_data_structures">
+      <UniqueIdentifier>{2b175372-86a7-49fd-87f7-b1335ee3facb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\juce\juce_gui_basics">
+      <UniqueIdentifier>{eaa838e7-ca1d-40cd-b7e1-9109d8e29642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domini\model">
+      <UniqueIdentifier>{1a62fa41-8add-4a7d-b32e-c062cc6192be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domini\transaccions">
+      <UniqueIdentifier>{846f621e-493c-46eb-87f4-9aa035f2d4d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\main.cpp" />
+    <ClCompile Include="..\..\..\source\extern\juce\juce_core\juce_core.cpp">
+      <Filter>extern\juce\juce_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\extern\juce\juce_data_structures\juce_data_structures.cpp">
+      <Filter>extern\juce\juce_data_structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\extern\juce\juce_events\juce_events.cpp">
+      <Filter>extern\juce\juce_events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\extern\juce\juce_graphics\juce_graphics.cpp">
+      <Filter>extern\juce\juce_graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\extern\juce\juce_gui_basics\juce_gui_basics.cpp">
+      <Filter>extern\juce\juce_gui_basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\presentacio\FinestraPrincipal.cpp">
+      <Filter>presentacio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dades\BaseDeDades.cpp">
+      <Filter>dades</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Beguda.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Ingredient.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Menu.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Plat.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Postre.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Producte.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\Restaurant.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\model\PlatNormal.cpp">
+      <Filter>domini\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\transaccions\TxLlistaMenusVegetarians.cpp">
+      <Filter>domini\transaccions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\domini\transaccions\TxCrearMenu.cpp">
+      <Filter>domini\transaccions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_core\juce_core.h">
+      <Filter>extern\juce\juce_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_data_structures\juce_data_structures.h">
+      <Filter>extern\juce\juce_data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_events\juce_events.h">
+      <Filter>extern\juce\juce_events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_graphics\juce_graphics.h">
+      <Filter>extern\juce\juce_graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_gui_basics\juce_gui_basics.h">
+      <Filter>extern\juce\juce_gui_basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\presentacio\FinestraPrincipal.h">
+      <Filter>presentacio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\extern\juce\juce_config.h">
+      <Filter>extern\juce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dades\BaseDeDades.h">
+      <Filter>dades</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\Excepcions.h">
+      <Filter>domini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dades\Excepcions.h">
+      <Filter>dades</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\transaccions\Transaccio.h">
+      <Filter>domini\transaccions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Beguda.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Ingredient.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Menu.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Plat.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Postre.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Producte.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\Restaurant.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\model\PlatNormal.h">
+      <Filter>domini\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\transaccions\TxLlistaMenusVegetarians.h">
+      <Filter>domini\transaccions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\Defs.h">
+      <Filter>domini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\domini\transaccions\TxCrearMenu.h">
+      <Filter>domini\transaccions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
